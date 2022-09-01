@@ -1,0 +1,27 @@
+{
+  "name": "src",
+  "version": "0.0.1",
+  "description": "Projeto de criação de site de eventos",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiagomedeiros11/primeiroProjeto.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Javascript"
+  ],
+  "author": "Tiago Medeiros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiagomedeiros11/primeiroProjeto/issues"
+  },
+  "homepage": "https://github.com/tiagomedeiros11/primeiroProjeto#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
