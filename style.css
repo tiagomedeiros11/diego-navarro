@@ -10,19 +10,21 @@ ul{
     display: flex;
     list-style: none;
     padding-left: 0;
+    margin: 0%;
 
 }
 
 
 :root{
-    --color-primary: rgb(204, 204, 7);
     font-family:'Montserrat', sans-serif ;
     font-size: 16px;
+    --color-primary: rgb(204, 204, 7);
+    --defalt-padding:1rem;
 
 }
 body{
     margin: 0;
-    padding-top: 7rem;
+    padding-top: 5.79rem;
 }
 
 .navegacao{
@@ -36,7 +38,7 @@ body{
     color: white;
     padding: 13px;
     margin-top: 0;
-    height: 6rem;
+    height: 5.9rem;
 }
 .logo{
     text-transform: uppercase;
@@ -78,3 +80,13 @@ body{
     text-align: right;
 }
 
+#slider{
+    height: calc(100vh - 6rem);
+    color: white;
+    background-color: black;
+    padding: var(--defalt-padding);
+    background-image: url(./images/banner.jpg);
+}
+h6{
+    margin: 0;
+}
