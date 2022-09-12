@@ -107,3 +107,11 @@ h6{
     top: 0;
 
 }
+
+.slide__texto h6{
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+
+}
