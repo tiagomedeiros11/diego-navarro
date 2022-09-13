@@ -18,7 +18,7 @@ ul{
 :root{
     font-family:'Montserrat', sans-serif ;
     font-size: 16px;
-    --color-primary: rgb(204, 204, 7);
+    --color-primary: rgb(204, 135, 7);
     --defalt-padding:1rem;
 
 }
@@ -53,8 +53,8 @@ body{
     text-align: right;
 }
 .travassos{
-    color: rgb(204, 204, 7);
-    font-weight: 900;
+    color: var(--color-primary);
+    font-weight: 700;
     text-transform: uppercase;
 }
 
@@ -112,6 +112,32 @@ h6{
     font-size: 15px;
     font-weight: 400;
     text-transform: uppercase;
-    
+    letter-spacing: 9px;
+    padding-top: 180px;
+}
 
+.slide__texto h2{
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 6.25rem;
+    margin-top: 40px;
+}
+
+.btn{
+    padding: 12px 30px;  
+    cursor: pointer;  
+    color: var(--color-primary);
+    border: 2px solid #fff;
+    background: unset;
+    border-radius: 26px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    transition: 0.5s all ease;
+}
+.btn:hover{
+    border-color:var(--color-primary);
+    background-color: var(--color-primary);
+    color: #fff;
 }
