@@ -9,8 +9,8 @@
 </head>
 
 <body>
-    
     <nav class="navegacao">
+        <div class="container navegacao__container">
             <h1 class="logo">Vitor
                 <span class="travassos"> Travassos</span><br> 
                 <span class="lab">LAB</span>
@@ -33,6 +33,7 @@
                 </li>
             </ul>
     
+        </div>
     </nav>
     <header> 
         <div id="slider">
@@ -46,24 +47,38 @@
             </div>                
         </div>     
     </header>
-
     <main>
-        <section>
-            <ul>
-                <li><h3> + de 500 </h3>pedidos entregues</li>
-                <li><h3>+ de 1000 </h3>dentes vendidos</li>
-                <li><h3>Referência</h3>na área</li>
+        <section id="counter">
+            <ul class="container counter__container">
+                <li>
+                    <h3> + de 500 
+                        <small>pedidos entregues </small>
+                    </h3>
+                    
+                </li>
+                <li>
+                    <h3>+ de 1000 
+                        <small>dentes vendidos</small>
+                    </h3> 
+                    
+                </li>
+                <li>
+                    <h3>Referência
+                        <small>na área</small>
+                    </h3>
+                    
+                </li>
             </ul>
         </section>
-        <section>
-            <div>
-                <img src="./images/institutional.jpg" alt="">
+        <section class="container institutional">
+            <img class="institutional__image" src="./images/institutional.jpg" alt="rosto alternativo">
+            <div class="institutional__copy" >
                 <h6>Cuidamos do seu projeto em todo momento</h6>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius doloremque ratione earum. Officia facere quos voluptas sit quibusdam maiores illum, facilis fugit non sapiente eligendi repellendus iste odio! Debitis, minus.
                 </p>
-                <button class="">Saiba mais</button>
+                <button class="btn btn--institutional">Saiba mais</button>
             </div>
         </section>
         <section >
@@ -72,7 +87,7 @@
                     Aqui voce encontra o melhor produto do mercado
                 </h5>
                 <h2><span>Muito+ </span>Qualidade</h2>
-                <button>Fazer cotação</button>
+                <button class="">Fazer cotação</button>
             </div>  
         </section>
     </main>
