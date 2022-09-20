@@ -106,7 +106,7 @@ h6{
     margin: 0;
 }
 .slide{
-    height: calc(100vh - 6rem);
+    height: calc(100vh - 8rem);
     position: relative;
 }
 
@@ -188,9 +188,7 @@ h6{
     gap: 3.125rem;
     padding: 4.375rem 1rem;
 }
-.institutional__copy{
-   
-}
+
 
 .institutional__copy h6{
     font-size: 0.875rem;
@@ -216,7 +214,33 @@ h6{
 .btn--institutional:hover{
     color: #333;
     background: none;
+    border-color: #333; 
+}
+
+.btn--quote{
+    color: #333;
+}
+.btn--quote:hover {
+    color: #333;
+    background: none;
     border-color: #333;
-    
+}
+
+.quote{
+    background-image: url(./images/parallax.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.quote__container{
+    display: grid;
+    align-items: center;
+    justify-items: end;
+    min-height: 80vh;
+}
+.quote__copy{
+    background-color: #fff;
+    padding: 5.625rem 4.375rem;
 }
 
