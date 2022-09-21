@@ -217,14 +217,7 @@ h6{
     border-color: #333; 
 }
 
-.btn--quote{
-    color: #333;
-}
-.btn--quote:hover {
-    color: #333;
-    background: none;
-    border-color: #333;
-}
+
 
 .quote{
     background-image: url(./images/parallax.jpg);
@@ -243,4 +236,33 @@ h6{
     background-color: #fff;
     padding: 5.625rem 4.375rem;
 }
+.quote__copy h5{
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin: 0;
+    max-width: 43ch;
+}
+.quote__copy h2{
+    font-size: 5rem ;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+    letter-spacing: -0.5px;
+    line-height: 5rem;
+    margin-bottom: 2.5rem;
+}
 
+.quote__copy h2 span{
+    display: block;
+}
+.btn--quote{
+    color: #333;
+    background: unset;
+    border-color: #333;
+}
+.btn--quote:hover {
+    color: #333;
+    
+    
+}
