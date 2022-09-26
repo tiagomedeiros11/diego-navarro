@@ -12,7 +12,7 @@
     <nav class="navegacao">
         <div class="container navegacao__container">
             <h1 class="logo">Vitor
-                <span class="travassos"> Travassos</span><br> 
+                <span class="travassos"> Travassos</span> 
                 <span class="lab">LAB</span>
             </h1>
             <ul class="navegacao__links">
@@ -85,7 +85,7 @@
             <div class="container quote__container">
                 <div class="quote__copy">
                     <h5>
-                        Aqui voce encontra o melhor produto do mercado
+                        Aqui voce encontra o melhor produto do mercado com
                     </h5>
                     <h2><span class="travassos">Muito+ </span>Qualidade</h2>
                     <button class="btn btn--quote">Fazer cotação</button>
@@ -94,20 +94,40 @@
         </section>
     </main>
     
-    <footer class="container">
-        <h2>Vitor<span> Travassos</span> <span>LAB</span></h2>
-        <form action="">
-            <label for="">Digite seu email que entraremos em contato</label>
-            <input type="email" name="" id="" placeholder="EMAIL">
-            <button type="submit">Enviar</button>
-            <ul>
-                <li> <a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
-                <li> <a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
-                <li> <a href="https://www.twitch.tv/gaules" target="_blank">Twiter</a></li>
-            </ul>
-            <hr>
-           <p> <small>Vitor <span> Travassos</span> - Todos os direitos reservados</small></p>
-        </form>
+    <footer class="footer">
+        <div class="container footer__container">
+            <h2 class="logo">Vitor<span class="travassos">Travassos</span>
+                <span class="lab">LAB</span>
+            </h2>
+            <form class="footer__form">
+                <label for="email">Digite seu email que entraremos em contato</label>
+                <fieldset>
+                    <input type="email" name="" id="email" placeholder="EMAIL">
+                    <button type="submit">
+                        <i class="fa-solid fa-paper-plane fa-2x"></i>
+                    </button>
+                </fieldset>
+            </form>
+                <ul class="footer__social">
+                    <li> <a href="https://www.instagram.com/" target="_blank">
+                            <i class="fa-brands fa-facebook fa-2x"></i>
+                        </a>
+                    </li>
+                    <li> <a href="https://www.youtube.com/" target="_blank">
+                            <i class="fa-regular fa-circle-play fa-2x"></i>
+                        </a>
+                    </li>
+                    <li> <a href="https://www.twitch.tv/gaules" target="_blank">
+                        <span class="fa-stack">
+                            <i class="fa-solid fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                          </span>    
+                        </a>
+                    </li>
+                </ul>     
+        </div>
+        <hr>
+        <p>Todos os direitos reservados</p>
     </footer>
 
 </body>
