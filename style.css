@@ -72,6 +72,10 @@ footer{
     margin-bottom: 0;
     text-align: right;
 }
+.logo a{
+    text-decoration: none;
+    color: #fff;
+}
 .travassos{
     color: var(--color-primary);
     font-weight: 700;
@@ -126,7 +130,6 @@ h6{
     position: absolute;
     left: 50vw;
     top: 0;
-
 }
 
 .slide__texto h6{
