@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding-top: 5.79rem;
+    overflow-x: hidden;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+:root{
+    font-family:'Montserrat', sans-serif ;
+    font-size: 16px;
+    color: #333;
+}
+main,
+footer{
+    overflow-x: hidden;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.logo{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2rem;
+    text-align: left;
+    line-height: 1ch;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: right;
+}
+.logo a{
+    text-decoration: none;
+    color: #fff;
+}
+.travassos{
+    color: var(--color-primary);
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+}
+.lab{
+    font-size: 0.875rem;
+    font-weight: 300;
+    text-align: right;
+}
+h6{
+    margin: 0;
+}

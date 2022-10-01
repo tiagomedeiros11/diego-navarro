@@ -1,0 +1,30 @@
+.btn{
+    padding: 12px 30px;  
+    cursor: pointer;  
+    color: var(--color-primary);
+    border: 2px solid #fff;
+    background: unset;
+    border-radius: 26px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    transition: 0.5s all ease;
+}
+.btn:hover,
+.btn--institutional{
+    border-color:var(--color-primary);
+    background-color: var(--color-primary);
+    color: #fff;
+}.btn--institutional:hover{
+    color: #333;
+    background: none;
+    border-color: #333; 
+}
+.btn--quote{
+    color: #333;
+    background: unset;
+    border-color: #333;
+}
+.btn--quote:hover {
+    color: #333;
+}
