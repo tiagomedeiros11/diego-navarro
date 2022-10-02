@@ -15,7 +15,8 @@
     border-color:var(--color-primary);
     background-color: var(--color-primary);
     color: #fff;
-}.btn--institutional:hover{
+}
+.btn--institutional:hover{
     color: #333;
     background: none;
     border-color: #333; 

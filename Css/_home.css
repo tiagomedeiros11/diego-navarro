@@ -4,7 +4,7 @@
 }
 
 .slide{
-    height: calc(100vh - 8rem);
+    height: 90vh;
     position: relative;
 }
 

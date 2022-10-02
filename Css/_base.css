@@ -4,7 +4,6 @@
 
 body{
     margin: 0;
-    padding-top: 5.79rem;
     overflow-x: hidden;
 }
 ul{
@@ -23,7 +22,7 @@ footer{
     overflow-x: hidden;
 }
 .container{
-    max-width: 1140px;
+    max-width: 1340px;
     margin: 0 auto;
 }
 .logo{
