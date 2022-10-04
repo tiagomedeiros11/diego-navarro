@@ -4,18 +4,18 @@
 
 
 /* Arquivos individuais de css*/
-@import 'Css/base.css';
-@import 'Css/variaveis.css';
+@import 'Css/_base.css';
+@import 'Css/_variaveis.css';
 
-@import 'Css/btn.css';
+@import 'Css/_btn.css';
 
-@import 'Css/nav.css';
-@import 'Css/hero.css';
-@import 'Css/footer.css';
+@import 'Css/_nav.css';
+@import 'Css/_hero.css';
+@import 'Css/_footer.css';
 
 
-@import 'Css/contacts.css';
-@import 'Css/home.css';
+@import 'Css/_contacts.css';
+@import 'Css/_home.css';
 
 
 
