@@ -1,0 +1,70 @@
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 35rem;
+    
+}
+.contact__info{
+    background-color: #fff;
+    width: 100%;
+}
+.contact__form{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+
+}
+.contact__info__copy{
+    margin-left: 17.5625rem ;
+    display: block;
+}
+.contact__info__copy i{
+    color: var(--color-primary);
+}
+.contact__info__copy h3{
+    margin-top: 4.5625rem;
+    font-size: 1.5625rem;
+}
+.contact__info__copy__icon{
+    display: block;
+    line-height: 1.6875rem;
+    font-weight: 500;
+}
+.contact__form__copy{
+    margin-right: 17.5625rem;
+    margin-top: 4.5625rem;
+    padding-left: 7.1875rem;
+}
+
+.contact__form__copy h3{
+    font-weight: 700;
+    font-size: 1.5625rem;
+}
+
+.contact__form__copy input{
+    width: 100%;
+    font-weight: 700;
+    background: unset;
+    border: unset;
+    border-bottom: 0.1rem solid #fff;
+    color: #fff;
+    margin-bottom: 3.43rem;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+}
+.contact__form__copy input:focus{
+    outline: unset;
+}
+.contact__form__copy label,
+.contact__form__copy input {
+    display: block;
+}
+
+.contact__form button{
+    float: right;
+}
+.maps,
+.maps iframe{
+    height: 32rem;
+    overflow: hidden;
+}

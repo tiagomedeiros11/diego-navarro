@@ -1,0 +1,35 @@
+
+.navegacao{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    
+}
+.navegacao__container{
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    align-items: center;
+    width: 100vw;
+    
+    padding: 0.8125rem;
+    height: 5.9rem;
+}
+.navegacao__links{
+    justify-self: end;
+}
+.navegacao__links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+.navegacao__links a:hover{
+    color: var(--color-primary);
+}
+.navegacao__links li{
+    margin-right: 3rem;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+}
