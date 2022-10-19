@@ -1,14 +1,18 @@
 .btn{
+    width: fit-content;
     padding: 12px 30px;  
     cursor: pointer;  
     color: var(--color-primary);
-    border: 2px solid #fff;
+    border: 2px solid rgb(185, 185, 185);
     background: unset;
     border-radius: 26px;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 15px;
     transition: 0.5s all ease;
+}
+.btn--slide{
+    align-self: flex-end;
 }
 .btn:hover,
 .btn--institutional{
@@ -28,4 +32,10 @@
 }
 .btn--quote:hover {
     color: #333;
+}
+
+.btn--slide--black{
+    color: var(--color-primary);
+    background: unset;
+    border-color: rgb(185, 185, 185);
 }

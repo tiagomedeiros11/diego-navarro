@@ -1,6 +1,6 @@
 .slider{
-    color: white;
-    background-color: black;
+    color: rgb(185, 185, 185);
+    background-color: var(--color-primary);
 }
 .slider__prev--arrow{
     z-index: 1;
@@ -47,8 +47,10 @@
 }
 
 .slide__texto{
-    max-width: 690px;
-    min-width: 400px;
+    flex-flow: column;
+    display: flex;
+    max-width: 790px;
+    min-width: 600px;
     position: absolute;
     left: 50vw;
     top: 0;
