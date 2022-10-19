@@ -1,7 +1,7 @@
 $(document).ready(() => {
   const slickOptions = {
     pauseOnHover: false,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 8000,
     prevArrow:
       '<button type="button" class="slick-prev slider__prev--arrow " >Previous</button>;',
