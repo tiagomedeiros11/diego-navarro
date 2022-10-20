@@ -49,19 +49,20 @@
 .slide__texto{
     flex-flow: column;
     display: flex;
-    max-width: 790px;
-    min-width: 600px;
+    max-width: auto;
+    min-width: auto;
+    left: 25vw;
     position: absolute;
-    left: 45vw;
     top: 0;
 }
+
 
 .slide__texto h6{
     font-size: 0.9375rem;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 9px;
-    padding-top: 11.25rem;
+    padding-top: 7.25rem;
 }
 
 .slide__texto h2{
@@ -70,7 +71,26 @@
     text-transform: uppercase;
     line-height: 6.25rem;
     margin-top: 2.5rem;
+    margin-bottom: auto;
 }
+/* Desktop superior a 1280px */
+@media screen and (min-width:1280px) {
+    .slide__texto{
+        left: 40vw;
+    }
+    .slide__texto h6{
+        padding-top: 11.25rem;
+    }
+    .slide__texto h2{
+        font-size: 10.25rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 6.25rem;
+        margin-top: 2.5rem;
+    } 
+}
+
+
 #counter{
     background-color: var(--color-primary);
     text-transform: uppercase;
