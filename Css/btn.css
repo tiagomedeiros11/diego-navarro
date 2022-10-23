@@ -12,7 +12,18 @@
     transition: 0.5s all ease;
 }
 .btn--slide{
-    align-self: flex-end;
+    align-self: center;
+}
+
+@media screen and (min-width:1280px) {
+    .btn--slide{
+        align-self: flex-end;
+    }
+}
+@media screen and (min-width:1024px) {
+    .btn--slide{
+        align-self: flex-end;
+    }
 }
 .btn:hover,
 .btn--institutional{
