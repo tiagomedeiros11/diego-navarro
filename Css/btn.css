@@ -38,8 +38,7 @@
 
 @media screen and (min-width:1280px) {
     .btn--institutional{
-        display: inline;
-        
+        display: inline;  
     }
     
 }
@@ -51,9 +50,11 @@
 
 
 .btn--quote{
+    display: block;
     color: #fff;
     background: unset;
     border-color: #fff;
+    margin: 0 auto;
 }
 .btn--quote:hover {
     color: #333;
@@ -63,4 +64,20 @@
     color: var(--color-primary);
     background: unset;
     border-color: rgb(185, 185, 185);
+}
+
+@media screen and (min-width:1280px) {
+    .btn--quote{
+        display: inline; 
+        border-color:var(--color-primary);
+        background-color: var(--color-primary);
+        color: #fff;
+
+    }
+    .btn--quote:hover {
+        color: #333;
+        background: none;
+        border-color: #333; 
+    }
+    
 }
