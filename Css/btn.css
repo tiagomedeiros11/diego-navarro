@@ -14,32 +14,47 @@
 .btn--slide{
     align-self: center;
 }
-
-@media screen and (min-width:1280px) {
-    .btn--slide{
-        align-self: flex-end;
-    }
-}
 @media screen and (min-width:1024px) {
     .btn--slide{
-        align-self: flex-end;
+        align-self: flex-start;
     }
 }
+@media screen and (min-width:1280px) {
+    .btn--slide{
+        display: inline;
+    }
+}
+
 .btn:hover,
 .btn--institutional{
     border-color:var(--color-primary);
     background-color: var(--color-primary);
     color: #fff;
 }
+.btn--institutional{
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (min-width:1280px) {
+    .btn--institutional{
+        display: inline;  
+    }
+    
+}
 .btn--institutional:hover{
     color: #333;
     background: none;
     border-color: #333; 
 }
+
+
 .btn--quote{
-    color: #333;
+    display: block;
+    color: #fff;
     background: unset;
-    border-color: #333;
+    border-color: #fff;
+    margin: 0 auto;
 }
 .btn--quote:hover {
     color: #333;
@@ -49,4 +64,20 @@
     color: var(--color-primary);
     background: unset;
     border-color: rgb(185, 185, 185);
+}
+
+@media screen and (min-width:1280px) {
+    .btn--quote{
+        display: inline; 
+        border-color:var(--color-primary);
+        background-color: var(--color-primary);
+        color: #fff;
+
+    }
+    .btn--quote:hover {
+        color: #333;
+        background: none;
+        border-color: #333; 
+    }
+    
 }
