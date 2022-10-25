@@ -149,7 +149,7 @@
     place-items: center;
     padding: 4.735rem 1rem;
     justify-items: center;
-
+    margin: 0 auto;
 }
 .counter__container h3{
     
@@ -162,11 +162,19 @@
 
 .institutional{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     align-items: center;
     gap: 3.125rem;
     padding: 4.375rem 1rem;
 }
+
+@media screen and (min-width:1280px) {
+    .institutional{
+        grid-template-columns: repeat(auto-fit, minmax(590px, 1fr));
+        gap: 3.125rem;
+    }
+}
+
 
 
 .institutional__copy h6{
@@ -181,7 +189,14 @@
 }
 
 .institutional__image{
-    max-width: 550px;
+    max-width: 380px;
+}
+
+@media screen and (min-width:1280px) {
+    .institutional__image{
+        max-width: 580px;
+    }
+    
 }
 
 .institutional__copy p{
@@ -189,6 +204,7 @@
     font-size: 1rem;
     line-height: 1.25rem;
     margin-bottom: 2.5rem;
+    
 }
 
 .quote{
