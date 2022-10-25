@@ -51,9 +51,9 @@
 
 
 .btn--quote{
-    color: #333;
+    color: #fff;
     background: unset;
-    border-color: #333;
+    border-color: #fff;
 }
 .btn--quote:hover {
     color: #333;

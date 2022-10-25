@@ -213,6 +213,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    /* opacity: 0.85; */
 }
 .quote__container{
     display: grid;
@@ -221,16 +222,19 @@
     min-height: 80vh;
 }
 .quote__copy{
-    background-color: #fff;
     padding: 5.625rem 4.375rem;
 }
+
+
+
 .quote__copy h5{
     font-size: 0.875rem;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
     margin: 0;
     max-width: 43ch;
+    color: #fff;
 }
 .quote__copy h2{
     font-size: 5rem ;
@@ -239,8 +243,22 @@
     letter-spacing: -0.5px;
     line-height: 5rem;
     margin-bottom: 2.5rem;
+    color: var(--color-primary);
 }
+
+.paralax-texto{
+    color: #fff;
+}
+
 
 .quote__copy h2 span{
     display: block;
+}
+
+@media screen and (min-width:1280px) {
+    .quote__copy{
+        background-color: #fff;
+        
+    }
+    
 }
