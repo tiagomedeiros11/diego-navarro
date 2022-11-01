@@ -6,19 +6,17 @@
     left: 0;
     width: 100%;
     color: white;
-    
 }
 .navegacao__container{
     display: grid;
     grid-template-columns: 2fr 8fr;
     align-items: center;
     width: 100vw;
-    
     padding: 0.8125rem;
     height: 5.9rem;
 }
 .navegacao__links{
-    justify-self: end;
+    display: none;
 }
 .navegacao__links a {
     color: white;
@@ -32,4 +30,37 @@
     margin-right: 3rem;
     font-size: 0.875rem;
     text-transform: uppercase;
+}
+
+.nav__btn{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.829);
+    background: unset;
+    border: unset;
+    font-size: 2rem;
+    width: fit-content;
+    justify-self: end;
+}
+
+@media screen and (min-width:800px) {
+    .nav__btn{
+        visibility: hidden;
+    }
+    .navegacao__links{
+        display: flex;
+        justify-self: flex-end;
+    }
+    
+}
+@media screen and (min-width:1024px) {
+    .nav__btn{
+        visibility: hidden;
+    }
+    
+}
+@media screen and (min-width:1280px) {
+    .nav__btn{
+        visibility: hidden;
+    }
+    
 }

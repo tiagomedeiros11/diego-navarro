@@ -32,6 +32,9 @@
     border-width: 0 0 2px 2px;
 
 }
+.slick-arrow{
+    visibility: hidden;
+}
 
 .slide{
     height: 80vh;
@@ -90,6 +93,9 @@
         margin: 2.5rem 0;
         text-align: start;
     } 
+    .slick-arrow{
+        visibility: visible;
+    }
 }
 /* Desktop superior a 1020px */
 @media screen and (min-width:1024px) {
@@ -111,6 +117,9 @@
         text-align: start;
 
     } 
+    .slick-arrow{
+        visibility: visible;
+    }
 }
 
 /* Desktop superior a 1280px */
@@ -134,6 +143,9 @@
         margin: 2.5rem 0;
 
     } 
+    .slick-arrow{
+        visibility: visible;
+    }
 }
 
 
@@ -212,7 +224,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
 }
 .quote__container{
     display: grid;
