@@ -18,21 +18,64 @@
 .navegacao__links{
     display: none;
 }
+
+@media screen and (min-width:1280px) {
+    .navegacao__links{
+        display: none;
+    }   
+}
+
+
 .navegacao__links a {
     color: white;
     text-decoration: none;
     font-weight: 300;
+    place-items: center;
 }
 .navegacao__links a:hover{
     color: var(--color-primary);
 }
 .navegacao__links li{
-    margin-right: 3rem;
-    font-size: 0.875rem;
+    font-size: 2rem;
     text-transform: uppercase;
 }
+@media screen and (min-width:800px) {
+    .nav__btn{
+        visibility: hidden;
+    }
+    .navegacao__links{
+        display: flex;
+        justify-self: flex-end;
+    }
+    .navegacao__links li{
+        margin-right: 3rem;
+        font-size: 0.875rem;
+        text-transform: uppercase;font-size: 0.875rem;
+        text-transform: uppercase;
+    }
+    .navegacao__links a{
+        font-weight: 300;
+    }
+    
+}
 
+.navegacao__links.active{
+    display: grid;
+    place-items: center;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem 2rem;
+    background: linear-gradient(97.54deg, #000305 35.49%, #5c5c5c 165.37%);
+    margin: 0;
+    
+    
+}
 .nav__btn{
+    z-index: 100;
     cursor: pointer;
     color: rgba(255, 255, 255, 0.829);
     background: unset;
@@ -45,22 +88,8 @@
 @media screen and (min-width:800px) {
     .nav__btn{
         visibility: hidden;
-    }
-    .navegacao__links{
-        display: flex;
-        justify-self: flex-end;
-    }
-    
+    }  
 }
-@media screen and (min-width:1024px) {
-    .nav__btn{
-        visibility: hidden;
-    }
-    
-}
-@media screen and (min-width:1280px) {
-    .nav__btn{
-        visibility: hidden;
-    }
-    
-}
+
+
+
