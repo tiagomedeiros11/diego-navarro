@@ -74,25 +74,18 @@
 }
 
 
-.lab{
-    display: block;
-}
 
 .footer__social a,
 .footer__social a:visited,
 .footer__social a:active {
-    color: #fff;
+    color: rgb(255, 255, 255);
     /* margin-left: 0.2rem; */
 }
-.fa-regular{
+.fa-brands{
     margin-left: .25rem;
 }
 
-.footer__social a .fa-twitter,
-.footer__social a .fa-twitter:visited,
-.footer__social a .fa-twitter:active {
-    color:#000;
-}
+
 
 .footer hr{
     border-color: #fff4;
